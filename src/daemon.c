@@ -71,10 +71,10 @@ static char *_profiles = NULL;
 
 SCHEMA(default)
 {
-  SCHEMA_ADD("ssid", "commotionwireless.net"); 
+  SCHEMA_ADD("ssid", "relais.reseaulibre.ca"); 
   SCHEMA_ADD("bssid", "02:CA:FF:EE:BA:BE"); 
-  SCHEMA_ADD("bssidgen", "true"); 
-  SCHEMA_ADD("channel", "5"); 
+  SCHEMA_ADD("bssidgen", "false"); 
+  SCHEMA_ADD("channel", "1"); 
   SCHEMA_ADD("mode", "adhoc"); 
   SCHEMA_ADD("type", "mesh"); 
   SCHEMA_ADD("dns", "208.67.222.222"); 
